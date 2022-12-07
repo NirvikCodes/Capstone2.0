@@ -1,0 +1,40 @@
+#loginImg {
+    width: 56%;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+
+#loginTxt {
+    font-family: 'Alfa', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#loginBtn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: radial-gradient(circle, rgba(63, 251, 246, 1) 0%, rgba(251, 128, 153, 1) 100%);
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+    cursor: "pointer";
+    vertical-align: middle;
+    padding: 5px;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-family: 'Alfa', sans-serif;
+    border-width: medium;
+    width: 40%;
+    caret-color: transparent;
+}
+
+#loginBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgba(251, 128, 153, 1) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+}

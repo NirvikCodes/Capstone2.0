@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+}
+
+#fontOne {
+    font-family: 'Alfa', sans-serif;
+    font-weight: bold;
+}
+
+#mainTextPos {
+    position: absolute;
+    top: 30%;
+    margin-left: 5%;
+    transition: all 1s;
+}
+
+show {
+    opacity: 1;
+}
+
+#textSize {
+    font-size: 500%;
+    caret-color: transparent;
+}
+#textSize:hover{
+    cursor: pointer;
+}
+
+#subText {
+    font-size: 150%;
+    float: left;
+    white-space: 'nowrap';
+    display: 'inline';
+    caret-color: transparent;
+
+}
+
+#subText:hover{
+    cursor: pointer;
+}
+
+#flex {
+    display: flex;
+}
+
+#imageOne {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 15%;
+    right: 0%
+}
+
+#imageOne:hover {
+    cursor: pointer;
+}
+
+#subText1 {
+    position: absolute;
+    top: 100%;
+    font-size: 150%;
+    margin-left: 5%;
+}
+
+#subImage1 {
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top: 99.5%;
+    font-size: 150%;
+    margin-left: -2%;
+}
+
+#subImage1:hover {
+    cursor: pointer;
+}
+
+#subText2 {
+    position: absolute;
+    top: 100%;
+    font-size: 150%;
+    margin-left: 38%;
+}
+
+#subImage2 {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 85%;
+    font-size: 150%;
+    margin-left: 19%
+}
+
+#subImage2:hover {
+    cursor: pointer;
+}
+
+#subText3 {
+    position: absolute;
+    top: 100%;
+    font-size: 150%;
+    margin-left: 70%;
+}
+
+#subImage3 {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 100%;
+    margin-left: 65%;
+}
+
+#subImage3:hover {
+    cursor: pointer;
+}
+
+
+#scrollDown {
+    position: absolute;
+    top: 290%;
+    font-size: 200%;
+    margin-left: 97%;
+}
+
+#gelatine {
+    background: linear-gradient(to left, #1F5673 0%, #01879e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#bounce {
+    background-image: url(https://i.pinimg.com/originals/73/f3/c2/73f3c2bae8f1bbd5ff5e53ad2f6394b4.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#subText4 {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    top: 160%;
+    margin-left: 5%;
+    font-family: 'Alfa', sans-serif;
+    font-size: 200%;
+    white-space: 'nowrap';
+    display: 'inline';  
+    padding-bottom: 0%;
+    height:20%;
+    caret-color: transparent;
+} 
+
+#subText4:hover{
+    cursor: pointer;
+}
+
+#bigSignUp{
+    position: absolute;
+    color: white;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+    cursor: "pointer";
+    vertical-align: middle;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 25px;
+    margin-top: 80%;
+    margin-left: 40%;
+    caret-color: transparent;
+}
+
+#bigSignUp:hover{
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgb(238, 99, 219) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+#spacing{
+    position: absolute;
+    margin-top: 100%;
+    background-color: #01879e;
+    width: 100%;
+    height: 20%;
+}
+
+#botLogo{
+    width: 8%;
+    height: 90%;
+    position: absolute;
+    top: 0%;
+    font-size: 150%;
+    margin-left:0%;
+}
+
+#madeByMe{
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-left: 1%;
+    caret-color: transparent;
+}
+
+#madeByMe:hover{
+    cursor: pointer;
+}
+
+#TOS{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+    margin-left: 80%;
+    caret-color: transparent;
+    margin-top: -7%;
+    font-size: larger;
+}
+
+#TOS:hover{
+    cursor: pointer;
+}
+
+#pP{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+    margin-left: 80%;
+    caret-color: transparent;
+    margin-top: -5%;
+    font-size: larger;
+}
+
+#pP:hover{
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+#contact{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+    margin-left: 80%;
+    caret-color: transparent;
+    margin-top: -3%;
+    font-size: larger;
+}
+
+#contact:hover{
+    cursor: pointer;
+}
+
+#cc{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+    margin-left: 45%;
+    caret-color: transparent;
+    margin-top: -1%;
+    font-size: larger;
+}
+
+#cc:hover{
+    cursor: pointer;
+}
+
+#txtColor{
+    color: #91ff00;
+}

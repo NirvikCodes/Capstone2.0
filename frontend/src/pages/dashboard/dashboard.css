@@ -1,0 +1,73 @@
+#dashBoardTxt {
+    font-family: 'Alfa', sans-serif;
+    margin-left: 2.7%;
+    margin-top: -38%;
+    caret-color: transparent;
+}
+
+#WelcomeBackTxt {
+    font-family: 'Alfa', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 5%;
+    caret-color: transparent;
+
+}
+
+#subTxt {
+    font-family: 'Alfa', sans-serif;
+    font-weight: 540;
+    margin-left: 5%;
+    caret-color: transparent;
+}
+
+#HabitCard {
+    width: 22%;
+    height: 35%;
+    margin-left: 10%;
+    caret-color: transparent;
+}
+
+#HabitCardTxt {
+    font-family: 'Alfa', sans-serif;
+    font-weight: bolder;
+    margin-top: 12%;
+}
+
+#CalendarCard {
+    margin-top: 0%;
+    width: 54%;
+    height: 50%;
+    margin-left: 42%;
+    background-color: rgb(251, 235, 235);
+    font-weight: bolder;
+    caret-color: transparent;
+
+}
+
+#CalendarTxt {
+    font-family: 'Alfa', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+#calendarCard {
+    position: absolute;
+    margin-top: 10%;
+    height: 60%;
+    margin-left: 0;
+    width: 32%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#test {
+    width: 500px;
+}
+
+#gradientTxt {
+    background: linear-gradient(to right, #0CCF0C 0%, #0ACFA8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

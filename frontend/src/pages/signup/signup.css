@@ -1,0 +1,53 @@
+
+#signUpImage {
+    width: 60%;
+    height: 60%;
+    margin-left: -7%;
+    margin-top: 6%;
+}
+
+#signUpImage:hover {
+    cursor: pointer;
+}
+
+#createAccountBtn {
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    border: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+    cursor: "pointer";
+    vertical-align: middle;
+    padding: 5px;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -9%;
+    font-family: 'Alfa', sans-serif;
+    border-width: medium;
+    caret-color: transparent;
+
+}
+
+#createAccountBtn:hover {
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgb(238, 99, 219) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+    border: 1px solid rgb(163, 245, 174);
+
+}
+
+#passwordMissMatchError {
+    font-family: 'Alfa', sans-serif;
+    margin-left: 61%;
+    margin-top: -13%;
+    color: rgb(143, 0, 0);
+    font-size: large;
+}
+
+#thankyou {
+    color: rgb(0, 152, 20);
+    position: absolute;
+    margin-left: -2%;
+}

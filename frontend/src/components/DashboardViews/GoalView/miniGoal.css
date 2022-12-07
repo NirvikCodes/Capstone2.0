@@ -1,0 +1,21 @@
+#bar {
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    width: 95%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#miniGoalTxt {
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+#percentTxt{
+    position: absolute;
+    margin-top: -1.5%;
+    margin-left: 18%;
+    font-weight: bolder;
+}

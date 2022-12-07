@@ -1,0 +1,162 @@
+#day {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-orientation: upright;
+    margin-left: 75%;
+    margin-top: -34.9%;
+    background-color: rgb(216, 179, 179);
+    width: 5%;
+    height: 3%;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-family: 'Alfa', sans-serif;
+    outline-style: solid;
+    caret-color: transparent;
+
+}
+
+#day:hover {
+    color: rgb(30, 60, 1);
+    cursor: pointer;
+    width: 6%;
+    height: 4%;
+    transition: 150ms;
+}
+
+#week {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-orientation: upright;
+    margin-left: 80.2%;
+    margin-top: -34.9%;
+    background-color: rgb(216, 179, 179);
+    width: 5%;
+    height: 3%;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-family: 'Alfa', sans-serif;
+    outline-style: solid;
+    caret-color: transparent;
+
+
+}
+
+#week:hover {
+    color: rgb(30, 60, 1);
+    cursor: pointer;
+    width: 6%;
+    height: 4%;
+    transition: 150ms;
+}
+
+#month {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-orientation: upright;
+    margin-left: 85.5%;
+    margin-top: -34.9%;
+    background-color: rgb(216, 179, 179);
+    width: 5%;
+    height: 3%;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-family: 'Alfa', sans-serif;
+    outline-style: solid;
+    caret-color: transparent;
+}
+
+#month:hover {
+    color: rgb(30, 60, 1);
+    cursor: pointer;
+    width: 5.4%;
+    height: 4%;
+    transition: 150ms;
+}
+
+#add {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-orientation: upright;
+    margin-left: 69.8%;
+    margin-top: -34.9%;
+    background-color: rgb(216, 179, 179);
+    width: 5%;
+    height: 3%;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-family: 'Alfa', sans-serif;
+    outline-style: solid;
+}
+
+#add:hover {
+    color: rgb(30, 60, 1);
+    cursor: pointer;
+    width: 5.4%;
+    height: 4%;
+    transition: 150ms;
+}
+
+
+
+#popUp {
+    position: absolute;
+    background-color: black;
+}
+
+#startCalendar {
+    display: inline-block;
+}
+
+#endCalendar {
+    display: inline-block;
+}
+
+.pop-up-content {
+    margin: auto;
+    background: rgba(212, 237, 157, 0.511);
+    width: 800px;
+    padding: 5px;
+}
+
+#taskTitleInputStart {
+    display: flex;
+    margin-top: -7%;
+    margin-left: 16%;
+    caret-color: transparent;
+    font-family: 'Alfa', sans-serif;
+}
+
+#taskTitleInputEnd {
+    display: flex;
+    margin-top: 0%;
+    margin-left: 16%;
+    caret-color: transparent;
+    font-family: 'Alfa', sans-serif;
+
+}
+
+#datePicker {
+    caret-color: transparent;
+    margin-left: 16%;
+
+}
+
+#submitTask {
+    caret-color: transparent;
+    font-size: larger;
+    margin-top: 3%;
+    width: 20%;
+    height: fit-content;
+    margin-left: 40%;
+    border-radius: 10%;
+    text-align: center;
+    border-style: solid;
+
+}
+
+#submitTask:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgba(251,128,153,1) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+}

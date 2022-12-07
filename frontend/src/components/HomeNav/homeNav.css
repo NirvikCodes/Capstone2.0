@@ -1,0 +1,114 @@
+#listWrapperHome {
+    list-style-type: none;
+    margin-top: 6.8%;
+    width: 14.8%;
+    max-height: 200%;
+    border-radius: 15px 0px 0px 15px;
+    caret-color: transparent;
+}
+
+#NavText {
+    font-size: large;
+    padding-bottom: 225%;
+}
+
+#homeImg {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    margin-left: 1%;
+    margin-top: 6%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#calendarButton {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    box-shadow: 0 0 5px -1px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10%;
+    width: 6%;
+    margin-left: 2%;
+}
+
+#calendarBtn {
+    position: absolute;
+    width: 25%;
+    margin-left: -.2%;
+    margin-top: 10%;
+}
+
+#bgColor {
+    position: absolute;
+    background-color: rgba(223, 227, 235, 0.795);
+    width: 5.7%;
+    height: 81.5%;
+    border-radius: 40px;
+}
+
+#addImg {
+    position: absolute;
+    width: 18%;
+    margin-left: 4.2%;
+    margin-top: 50%;
+
+}
+
+#logoutBtn {
+    position: absolute;
+    width: 8%;
+    margin-left: 8.3%;
+    margin-top: 105%;
+}
+
+#dashboardImg {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 1.5%;
+    width: 4%;
+    height: 7%;
+}
+
+#addImg {
+    width: 37%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 4%;
+}
+
+
+#addCalendar {
+    width: 80%;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 2.8%;
+}
+
+.line {
+    position: absolute;
+    border-left: 6px solid rgba(255, 78, 50, 0.884);
+    height: 50px;
+    margin-top: 6%;
+    margin-left: 5.3%;
+}
+
+.calLine{
+    position: absolute;
+    border-left: 6px solid rgba(32, 241, 9, 0.884);
+    height: 50px;
+    margin-top: 12%;
+    margin-left: 5.3%;
+}
+
+.addLine{
+    position: absolute;
+    border-left: 6px solid rgba(40, 205, 255, 0.884);
+    height: 50px;
+    margin-top: 18.5%;
+    margin-left: 5.3%;
+}

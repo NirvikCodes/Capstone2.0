@@ -1,0 +1,117 @@
+version: '3.8'
+
+networks:
+  fruitfuldb-net:
+    external: false
+
+services:
+
+  db:
+    container_name: frutifuldb
+    build:
+      context: ./
+      dockerfile: mysql_dockerfile.dockerfile
+    ports:
+      - "3307:3306"
+    networks:
+      - fruitfuldb-net
+
+  userservice:
+    container_name: userserivce
+    build:
+      context: ./userservice/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    image: userserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+    environment:
+      - jwt.secret=capstone
+
+  taskservice:
+    container_name: taskservice
+    build:
+      context: ./taskservice/
+      dockerfile: Dockerfile
+    ports:
+      - "9091:9091"
+    image: taskserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+
+  habitservice:
+    container_name: habitservice
+    build:
+      context: ./habitservice/
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    image: habitserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+
+  goalservice:
+    container_name: goalservice
+    build:
+      context: ./goalservice/
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+    image: goalserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+
+  loanservice:
+    container_name: loanservice
+    build:
+      context: ./loanservice/
+      dockerfile: Dockerfile
+    ports:
+      - "9092:9092"
+    image: loanserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+
+  fingoalservice:
+    container_name: fingoalservice
+    build:
+      context: ./fingoalservice/
+      dockerfile: Dockerfile
+    ports:
+      - "9093:9093"
+    image: fingoalserviceimage
+    networks:
+      - fruitfuldb-net
+    depends_on:
+      - db
+
+  apigateway:
+    image: apigateway:1
+    container_name: apigateway
+    build:
+      context: ./ApiGateway
+      dockerfile: 2.dockerfile
+    ports:
+      - "8888:8888"
+    depends_on:
+      - eureka
+
+  eureka:
+    container_name: eureka
+    image: steeltoeoss/eureka-server:latest
+    networks:
+      - fruitfuldb-net
+    ports:
+      - '8761:8761'
+    restart: always

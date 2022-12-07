@@ -1,0 +1,51 @@
+#card {
+    display: inline-block;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    width: 20%;
+    height: 140px;
+    user-select: none;
+    background-color: rgba(255, 232, 194, 0.486);
+    margin-right: 4%;
+    margin-bottom: 2%;
+    overflow-y: scroll;
+}
+
+
+#goalTxt {
+    margin-left: 30%;
+    font-weight: bolder;
+    display: inline-block;
+
+}
+
+#card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    transform: scale3d(1.1, 1.1, 1);
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+#date {
+    margin-top: 50%;
+    margin-left: -63%;
+}
+
+#addGoalBtn {
+    width: 4%;
+
+}
+
+#goalDelete {
+    margin-top: -11%;
+    font-size: 150%;
+    margin-left: 90%;
+    position: relative;
+
+}
+
+
+#goalDelete:hover {
+    color: brown;
+
+}

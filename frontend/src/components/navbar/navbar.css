@@ -1,0 +1,64 @@
+#navWrapper {
+    position: sticky;
+    top: 0;
+    border-bottom: solid;
+    border-color: #CCC;
+    border-width: thin;
+    margin-top: 0%;
+}
+
+#listWrapper {
+    list-style-type: none;
+    display: flex;
+}
+
+#fontSize {
+    text-decoration: none;
+    flex-basis: calc(82%);
+    font-size: 200%;
+}
+
+#logo {
+    position: absolute;
+    top: 30%;
+    margin-left: 3%;
+
+}
+
+#logoPos {
+    width: 8%;
+    height: 120%;
+    position: absolute;
+    top: -20%;
+    font-size: 150%;
+    margin-left: -5%;
+}
+
+#linkStyle {
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: Monospace;
+    font-weight: bold;
+}
+
+#buttonStyle {
+    display: inline-block;
+    color: white;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+    cursor: "pointer";
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 25px;
+}
+
+#buttonStyle:hover {
+    background: linear-gradient(to left, rgb(240, 85, 85) 50%, rgb(159, 159, 239) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.9s;
+
+}

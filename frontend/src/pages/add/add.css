@@ -1,0 +1,222 @@
+#addScreenBg {
+    background: rgba(205, 207, 198, 0.888);
+    margin-top: -33.5%;
+    margin-left: 11.5%;
+    width: 1110px;
+    height: 552px;
+    box-shadow: 10px;
+    overflow-y: auto;
+}
+
+#addTxt {
+    position: absolute;
+    font-family: 'Alfa', sans-serif;
+    margin-left: 3.3%;
+    margin-top: -40%;
+    font-weight: bolder;
+    font-size: large;
+    caret-color: transparent;
+}
+
+
+#addHabitTxt {
+    font-size: large;
+    font-weight: 700;
+    margin-left: -850%;
+    margin-top: 200%;
+    cursor: pointer;
+}
+
+
+#addHabitTxt:hover {
+    color: rgb(30, 173, 32);
+}
+
+.dropdown-content {
+    position: absolute;
+    opacity: 0;
+    transition: visibility 1s 2s, opacity .5s linear;
+    margin-top: -160%;
+    margin-left: -75%;
+
+}
+
+.dropdown {
+    position: sticky;
+    display: inline-block;
+    margin-left: 92%;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
+
+#addImgBtn {
+    position: static;
+    margin-left: -600%;
+    width: 50%;
+    transition: transform .7s ease-in-out;
+    caret-color: transparent;
+
+}
+
+#addImgBtn:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.popup-content {
+    position: absolute;
+    margin-left: -15%;
+    margin-top: -5%;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+}
+
+[role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 50px;
+}
+
+.popup-arrow {
+    opacity: 0;
+}
+
+#habitNameTxt {
+    font-family: 'Alfa', sans-serif;
+
+}
+
+#createHabitBtn {
+    caret-color: transparent;
+    font-size: larger;
+    margin-top: -3%;
+    width: 40%;
+    height: fit-content;
+    border-radius: 10%;
+    text-align: center;
+    border-style: solid;
+}
+
+#createHabitBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgba(251, 128, 153, 1) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+}
+
+#input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 10px;
+    width: 165px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#scrollable {
+    overflow-y: auto;
+}
+
+#habitCreated {
+    margin-top: -6%;
+    margin-bottom: 5%;
+}
+
+#addGoalTxt {
+    margin-left: -1020%;
+    margin-top: 250%;
+    font-size: large;
+    font-weight: 700;
+}
+
+#addGoalTxt:hover {
+    cursor: pointer;
+    color: rgb(30, 173, 32);
+}
+
+#addGoalStep {
+    border: 1px solid black;
+    caret-color: transparent;
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 0%;
+    margin-bottom: 7%;
+    width: 5%;
+    height: 10%;
+
+}
+
+#addGoalStep:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgba(251, 128, 153, 1) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+}
+
+#resetHabit {
+    position: absolute;
+    margin-left: -850%;
+    font-family: 'Alfa', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+#resetHabit:hover {
+    cursor: pointer;
+    color: rgb(30, 173, 32);
+}
+
+#question {
+    font-family: 'Alfa', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    position: absolute;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+#yesBtn {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 5%;
+    caret-color: transparent;
+    font-size: larger;
+    width: 40%;
+    height: fit-content;
+    border-radius: 10%;
+    text-align: center;
+    border-style: solid;
+}
+
+#yesBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(163, 245, 174) 50%, rgba(251, 128, 153, 1) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.7s;
+}
+
+#noBtn {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 50%;
+    caret-color: transparent;
+    font-size: larger;
+    width: 40%;
+    height: fit-content;
+    border-radius: 10%;
+    text-align: center;
+    border-style: solid;
+}
+
+#noBtn:hover {
+    background: linear-gradient(to left, rgb(240, 85, 85) 50%, rgb(159, 159, 239) 100%) right;
+    background-size: 200% 100%;
+    transition: 0.9s;
+    cursor: pointer;
+}
